@@ -1,8 +1,0 @@
-
-# Routes
-# This file defines all application routes (Higher priority routes first)
-# ~~~~
-
-POST    /schema/:id	        controllers.SchemaController.create(id: String)
-GET     /schema/:id         controllers.SchemaController.download(id: String)
-POST    /validate/:id       controllers.SchemaController.validate(id: String)
