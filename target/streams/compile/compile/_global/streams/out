@@ -1,0 +1,7 @@
+[warn] /Users/ufuk/Programs/vole-ws/json-schema-validator/app/controllers/SchemaController.scala:23:18: non-variable type argument models.Schema in type pattern scala.concurrent.Future[models.Schema] is unchecked since it is eliminated by erasure
+[warn] 				case schema: Future[Schema] => Created(Json.toJson(SuccessfulResponse("uploadSchema", id)))
+[warn] 				             ^
+[warn] /Users/ufuk/Programs/vole-ws/json-schema-validator/app/controllers/SchemaController.scala:39:18: non-variable type argument models.Schema in type pattern scala.concurrent.Future[models.Schema] is unchecked since it is eliminated by erasure
+[warn] 				case schema: Future[Schema] => Ok(Json.toJson(SuccessfulResponse("validateDocument", id)))
+[warn] 				             ^
+[warn] two warnings found
